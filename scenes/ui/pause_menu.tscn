@@ -1,0 +1,13 @@
+[gd_scene load_steps=2 format=3]
+[ext_resource type="Script" path="res://scripts/ui/arcade_menu.gd" id="1"]
+[node name="PauseMenu" type="Node2D"]
+process_mode = 3
+visible = false
+script = ExtResource("1")
+heading = "PAUSED"
+heading_color = Color(1, 1, 0, 1)
+options = PackedStringArray("RESUME", "RESTART", "MAIN MENU")
+actions = PackedStringArray("resume", "restart", "menu")
+first_baseline = 148.0
+dim_background = true
+show_score = false

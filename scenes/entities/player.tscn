@@ -1,0 +1,26 @@
+[gd_scene load_steps=5 format=3]
+
+[ext_resource type="Script" path="res://scripts/entities/player.gd" id="1"]
+[ext_resource type="Script" path="res://scripts/entities/arcade_sprite.gd" id="2"]
+[ext_resource type="Texture2D" path="res://assets/sprites/player.png" id="3"]
+
+[sub_resource type="RectangleShape2D" id="Hitbox"]
+resource_local_to_scene = true
+size = Vector2(10, 8)
+
+[node name="Player" type="Area2D"]
+texture_filter = 1
+collision_layer = 1
+collision_mask = 10
+script = ExtResource("1")
+
+
+[node name="Visual" type="Sprite2D" parent="."]
+texture = ExtResource("3")
+hframes = 3
+script = ExtResource("2")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+
+shape = SubResource("Hitbox")
+disabled = true

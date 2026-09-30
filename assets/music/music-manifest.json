@@ -1,0 +1,56 @@
+{
+  "description": "Original synthesized chiptune compositions for art-and-audio review; no third-party music samples.",
+  "tracks": [
+    {
+      "filename": "star-formation-title.wav",
+      "bpm": 120,
+      "bars": 16,
+      "seconds": 32,
+      "loop": true,
+      "sampleRate": 22050,
+      "channels": 2,
+      "notes": 260,
+      "peakDb": -2.85,
+      "rmsDb": -15.125754586831919,
+      "clippedSamples": 0,
+      "loopBoundarySamples": [
+        0,
+        0
+      ]
+    },
+    {
+      "filename": "dive-attack-gameplay.wav",
+      "bpm": 150,
+      "bars": 32,
+      "seconds": 51.2,
+      "loop": true,
+      "sampleRate": 22050,
+      "channels": 2,
+      "notes": 992,
+      "peakDb": -2.85,
+      "rmsDb": -15.238493850728966,
+      "clippedSamples": 0,
+      "loopBoundarySamples": [
+        0,
+        0
+      ]
+    },
+    {
+      "filename": "last-flight-game-over.wav",
+      "bpm": 100,
+      "bars": 3,
+      "seconds": 7.2,
+      "loop": false,
+      "sampleRate": 22050,
+      "channels": 2,
+      "notes": 23,
+      "peakDb": -2.85,
+      "rmsDb": -14.092929797181764,
+      "clippedSamples": 0,
+      "loopBoundarySamples": [
+        0,
+        0
+      ]
+    }
+  ]
+}

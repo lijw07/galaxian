@@ -1,0 +1,158 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+TextServer: Added interface "Dummy"
+TextServer: Added interface "ICU / HarfBuzz / Graphite (Built-in)"
+SDL: Init OK!
+Using "default" pen tablet driver...
+
+TextServer: Primary interface set to: "ICU / HarfBuzz / Graphite (Built-in)".
+CORE API HASH: 2004498165
+EDITOR API HASH: 1696660745
+Loading resource: res://tests/asset_integration.gd remapped: res://tests/asset_integration.gd
+Loading resource: res://scenes/entities/enemy_shot.tscn remapped: res://scenes/entities/enemy_shot.tscn
+Loading resource: res://scripts/entities/projectile.gd remapped: res://scripts/entities/projectile.gd
+Completed load for: 'res://scripts/entities/projectile.gd' remapped 'res://scripts/entities/projectile.gd' at thread -1
+Loading resource: res://scripts/entities/arcade_sprite.gd remapped: res://scripts/entities/arcade_sprite.gd
+Completed load for: 'res://scripts/entities/arcade_sprite.gd' remapped 'res://scripts/entities/arcade_sprite.gd' at thread -1
+Loading resource: res://assets/sprites/enemy_shot.png remapped: res://assets/sprites/enemy_shot.png
+Loading resource: res://.godot/imported/enemy_shot.png-fdbc47a13d40bff51840fee403c280ed.ctex remapped: res://.godot/imported/enemy_shot.png-fdbc47a13d40bff51840fee403c280ed.ctex
+Completed load for: 'res://assets/sprites/enemy_shot.png' remapped 'res://assets/sprites/enemy_shot.png' at thread -1
+Completed load for: 'res://scenes/entities/enemy_shot.tscn' remapped 'res://scenes/entities/enemy_shot.tscn' at thread -1
+Loading resource: res://scenes/entities/green_enemy.tscn remapped: res://scenes/entities/green_enemy.tscn
+Loading resource: res://scripts/entities/alien.gd remapped: res://scripts/entities/alien.gd
+Completed load for: 'res://scripts/entities/alien.gd' remapped 'res://scripts/entities/alien.gd' at thread -1
+Loading resource: res://assets/sprites/alien_blue.png remapped: res://assets/sprites/alien_blue.png
+Loading resource: res://.godot/imported/alien_blue.png-41f22f0c7db83671510628257956ad6c.ctex remapped: res://.godot/imported/alien_blue.png-41f22f0c7db83671510628257956ad6c.ctex
+Completed load for: 'res://assets/sprites/alien_blue.png' remapped 'res://assets/sprites/alien_blue.png' at thread -1
+Completed load for: 'res://scenes/entities/green_enemy.tscn' remapped 'res://scenes/entities/green_enemy.tscn' at thread -1
+Loading resource: res://scenes/entities/violet_enemy.tscn remapped: res://scenes/entities/violet_enemy.tscn
+Loading resource: res://assets/sprites/alien_purple.png remapped: res://assets/sprites/alien_purple.png
+Loading resource: res://.godot/imported/alien_purple.png-615be322740c7dbc0a5dfe8ba520e3b4.ctex remapped: res://.godot/imported/alien_purple.png-615be322740c7dbc0a5dfe8ba520e3b4.ctex
+Completed load for: 'res://assets/sprites/alien_purple.png' remapped 'res://assets/sprites/alien_purple.png' at thread -1
+Completed load for: 'res://scenes/entities/violet_enemy.tscn' remapped 'res://scenes/entities/violet_enemy.tscn' at thread -1
+Loading resource: res://scenes/entities/red_enemy.tscn remapped: res://scenes/entities/red_enemy.tscn
+Loading resource: res://assets/sprites/alien_red.png remapped: res://assets/sprites/alien_red.png
+Loading resource: res://.godot/imported/alien_red.png-9092ae7c9d60bfa26304edf6b16ab59a.ctex remapped: res://.godot/imported/alien_red.png-9092ae7c9d60bfa26304edf6b16ab59a.ctex
+Completed load for: 'res://assets/sprites/alien_red.png' remapped 'res://assets/sprites/alien_red.png' at thread -1
+Completed load for: 'res://scenes/entities/red_enemy.tscn' remapped 'res://scenes/entities/red_enemy.tscn' at thread -1
+Loading resource: res://scenes/entities/boss.tscn remapped: res://scenes/entities/boss.tscn
+Loading resource: res://assets/sprites/alien_flagship.png remapped: res://assets/sprites/alien_flagship.png
+Loading resource: res://.godot/imported/alien_flagship.png-f5fbd12dcd7bd4132e0137ba9ece8f1a.ctex remapped: res://.godot/imported/alien_flagship.png-f5fbd12dcd7bd4132e0137ba9ece8f1a.ctex
+Completed load for: 'res://assets/sprites/alien_flagship.png' remapped 'res://assets/sprites/alien_flagship.png' at thread -1
+Completed load for: 'res://scenes/entities/boss.tscn' remapped 'res://scenes/entities/boss.tscn' at thread -1
+Loading resource: res://scenes/entities/player_shot.tscn remapped: res://scenes/entities/player_shot.tscn
+Loading resource: res://assets/sprites/player_shot.png remapped: res://assets/sprites/player_shot.png
+Loading resource: res://.godot/imported/player_shot.png-cd11a0f2736430f1880a9cb0b72917db.ctex remapped: res://.godot/imported/player_shot.png-cd11a0f2736430f1880a9cb0b72917db.ctex
+Completed load for: 'res://assets/sprites/player_shot.png' remapped 'res://assets/sprites/player_shot.png' at thread -1
+Completed load for: 'res://scenes/entities/player_shot.tscn' remapped 'res://scenes/entities/player_shot.tscn' at thread -1
+Loading resource: res://scenes/effects/explosion.tscn remapped: res://scenes/effects/explosion.tscn
+Loading resource: res://scripts/entities/explosion.gd remapped: res://scripts/entities/explosion.gd
+Completed load for: 'res://scripts/entities/explosion.gd' remapped 'res://scripts/entities/explosion.gd' at thread -1
+Loading resource: res://assets/sprites/alien_explosion.png remapped: res://assets/sprites/alien_explosion.png
+Loading resource: res://.godot/imported/alien_explosion.png-bb5532cf004f1c4723055111a4fed99e.ctex remapped: res://.godot/imported/alien_explosion.png-bb5532cf004f1c4723055111a4fed99e.ctex
+Completed load for: 'res://assets/sprites/alien_explosion.png' remapped 'res://assets/sprites/alien_explosion.png' at thread -1
+Completed load for: 'res://scenes/effects/explosion.tscn' remapped 'res://scenes/effects/explosion.tscn' at thread -1
+Loading resource: res://assets/ui/glyphs.png remapped: res://assets/ui/glyphs.png
+Loading resource: res://.godot/imported/glyphs.png-11a049a4ba80cbc133ecbfd7b21586e2.ctex remapped: res://.godot/imported/glyphs.png-11a049a4ba80cbc133ecbfd7b21586e2.ctex
+Completed load for: 'res://assets/ui/glyphs.png' remapped 'res://assets/ui/glyphs.png' at thread -1
+Completed load for: 'res://tests/asset_integration.gd' remapped 'res://tests/asset_integration.gd' at thread -1
+SceneTreeFTI: traversal method DEFAULT
+Loading resource: res://scripts/audio/sfx.gd remapped: res://scripts/audio/sfx.gd
+Completed load for: 'res://scripts/audio/sfx.gd' remapped 'res://scripts/audio/sfx.gd' at thread -1
+Loading resource: res://scripts/audio/music.gd remapped: res://scripts/audio/music.gd
+Loading resource: res://assets/music/star-formation-title.wav remapped: res://assets/music/star-formation-title.wav
+Loading resource: res://.godot/imported/star-formation-title.wav-7d6c3b1f34bf67e26b4eebeadfa1789a.sample remapped: res://.godot/imported/star-formation-title.wav-7d6c3b1f34bf67e26b4eebeadfa1789a.sample
+Completed load for: 'res://assets/music/star-formation-title.wav' remapped 'res://assets/music/star-formation-title.wav' at thread -1
+Loading resource: res://assets/music/dive-attack-gameplay.wav remapped: res://assets/music/dive-attack-gameplay.wav
+Loading resource: res://.godot/imported/dive-attack-gameplay.wav-7eb5f5af8716098ad1cc547604b5437a.sample remapped: res://.godot/imported/dive-attack-gameplay.wav-7eb5f5af8716098ad1cc547604b5437a.sample
+Completed load for: 'res://assets/music/dive-attack-gameplay.wav' remapped 'res://assets/music/dive-attack-gameplay.wav' at thread -1
+Loading resource: res://assets/music/last-flight-game-over.wav remapped: res://assets/music/last-flight-game-over.wav
+Loading resource: res://.godot/imported/last-flight-game-over.wav-630356cdfc11adc3d6fdf42459130ce3.sample remapped: res://.godot/imported/last-flight-game-over.wav-630356cdfc11adc3d6fdf42459130ce3.sample
+Completed load for: 'res://assets/music/last-flight-game-over.wav' remapped 'res://assets/music/last-flight-game-over.wav' at thread -1
+Completed load for: 'res://scripts/audio/music.gd' remapped 'res://scripts/audio/music.gd' at thread -1
+Loaded system CA certificates
+Loading resource: res://assets/sprites/player.png remapped: res://assets/sprites/player.png
+Loading resource: res://.godot/imported/player.png-e1eaffe0873063c60a0d0b322e4d87d9.ctex remapped: res://.godot/imported/player.png-e1eaffe0873063c60a0d0b322e4d87d9.ctex
+Completed load for: 'res://assets/sprites/player.png' remapped 'res://assets/sprites/player.png' at thread -1
+Loading resource: res://assets/approved/frames/player-ship-1.png remapped: res://assets/approved/frames/player-ship-1.png
+Loading resource: res://.godot/imported/player-ship-1.png-d4bbd5334329eaf9a0c561e5d340d1fa.ctex remapped: res://.godot/imported/player-ship-1.png-d4bbd5334329eaf9a0c561e5d340d1fa.ctex
+Completed load for: 'res://assets/approved/frames/player-ship-1.png' remapped 'res://assets/approved/frames/player-ship-1.png' at thread -1
+Loading resource: res://assets/approved/frames/player-ship-2.png remapped: res://assets/approved/frames/player-ship-2.png
+Loading resource: res://.godot/imported/player-ship-2.png-12f7d650ce027c82fb97afaaf279058b.ctex remapped: res://.godot/imported/player-ship-2.png-12f7d650ce027c82fb97afaaf279058b.ctex
+Completed load for: 'res://assets/approved/frames/player-ship-2.png' remapped 'res://assets/approved/frames/player-ship-2.png' at thread -1
+Loading resource: res://assets/approved/frames/player-ship-3.png remapped: res://assets/approved/frames/player-ship-3.png
+Loading resource: res://.godot/imported/player-ship-3.png-dad8b5d56d69d4091cad1b896cfda482.ctex remapped: res://.godot/imported/player-ship-3.png-dad8b5d56d69d4091cad1b896cfda482.ctex
+Completed load for: 'res://assets/approved/frames/player-ship-3.png' remapped 'res://assets/approved/frames/player-ship-3.png' at thread -1
+Loading resource: res://assets/approved/frames/green-enemy-1.png remapped: res://assets/approved/frames/green-enemy-1.png
+Loading resource: res://.godot/imported/green-enemy-1.png-534bf77ed122321e984cf91c202824dd.ctex remapped: res://.godot/imported/green-enemy-1.png-534bf77ed122321e984cf91c202824dd.ctex
+Completed load for: 'res://assets/approved/frames/green-enemy-1.png' remapped 'res://assets/approved/frames/green-enemy-1.png' at thread -1
+Loading resource: res://assets/approved/frames/green-enemy-2.png remapped: res://assets/approved/frames/green-enemy-2.png
+Loading resource: res://.godot/imported/green-enemy-2.png-9f01fa80c36ccbf4c44d5ec4976549f5.ctex remapped: res://.godot/imported/green-enemy-2.png-9f01fa80c36ccbf4c44d5ec4976549f5.ctex
+Completed load for: 'res://assets/approved/frames/green-enemy-2.png' remapped 'res://assets/approved/frames/green-enemy-2.png' at thread -1
+Loading resource: res://assets/approved/frames/green-enemy-3.png remapped: res://assets/approved/frames/green-enemy-3.png
+Loading resource: res://.godot/imported/green-enemy-3.png-757a673b27ec98ed13dce5143026e174.ctex remapped: res://.godot/imported/green-enemy-3.png-757a673b27ec98ed13dce5143026e174.ctex
+Completed load for: 'res://assets/approved/frames/green-enemy-3.png' remapped 'res://assets/approved/frames/green-enemy-3.png' at thread -1
+Loading resource: res://assets/approved/frames/violet-enemy-1.png remapped: res://assets/approved/frames/violet-enemy-1.png
+Loading resource: res://.godot/imported/violet-enemy-1.png-402b25108c5ac3289128183c8a2ec2cb.ctex remapped: res://.godot/imported/violet-enemy-1.png-402b25108c5ac3289128183c8a2ec2cb.ctex
+Completed load for: 'res://assets/approved/frames/violet-enemy-1.png' remapped 'res://assets/approved/frames/violet-enemy-1.png' at thread -1
+Loading resource: res://assets/approved/frames/violet-enemy-2.png remapped: res://assets/approved/frames/violet-enemy-2.png
+Loading resource: res://.godot/imported/violet-enemy-2.png-f44af4c360eed75ed21fb844d336571b.ctex remapped: res://.godot/imported/violet-enemy-2.png-f44af4c360eed75ed21fb844d336571b.ctex
+Completed load for: 'res://assets/approved/frames/violet-enemy-2.png' remapped 'res://assets/approved/frames/violet-enemy-2.png' at thread -1
+Loading resource: res://assets/approved/frames/violet-enemy-3.png remapped: res://assets/approved/frames/violet-enemy-3.png
+Loading resource: res://.godot/imported/violet-enemy-3.png-4d09a37e52618c4b20527869d38586a3.ctex remapped: res://.godot/imported/violet-enemy-3.png-4d09a37e52618c4b20527869d38586a3.ctex
+Completed load for: 'res://assets/approved/frames/violet-enemy-3.png' remapped 'res://assets/approved/frames/violet-enemy-3.png' at thread -1
+Loading resource: res://assets/approved/frames/red-enemy-1.png remapped: res://assets/approved/frames/red-enemy-1.png
+Loading resource: res://.godot/imported/red-enemy-1.png-371eca92f89df2b65ee22a81c07c980d.ctex remapped: res://.godot/imported/red-enemy-1.png-371eca92f89df2b65ee22a81c07c980d.ctex
+Completed load for: 'res://assets/approved/frames/red-enemy-1.png' remapped 'res://assets/approved/frames/red-enemy-1.png' at thread -1
+Loading resource: res://assets/approved/frames/red-enemy-2.png remapped: res://assets/approved/frames/red-enemy-2.png
+Loading resource: res://.godot/imported/red-enemy-2.png-688adc0994af9a192c4ea1f3c0ab5316.ctex remapped: res://.godot/imported/red-enemy-2.png-688adc0994af9a192c4ea1f3c0ab5316.ctex
+Completed load for: 'res://assets/approved/frames/red-enemy-2.png' remapped 'res://assets/approved/frames/red-enemy-2.png' at thread -1
+Loading resource: res://assets/approved/frames/red-enemy-3.png remapped: res://assets/approved/frames/red-enemy-3.png
+Loading resource: res://.godot/imported/red-enemy-3.png-12f49ba1d32987ef28200936565c9ac9.ctex remapped: res://.godot/imported/red-enemy-3.png-12f49ba1d32987ef28200936565c9ac9.ctex
+Completed load for: 'res://assets/approved/frames/red-enemy-3.png' remapped 'res://assets/approved/frames/red-enemy-3.png' at thread -1
+Loading resource: res://assets/approved/frames/boss-1.png remapped: res://assets/approved/frames/boss-1.png
+Loading resource: res://.godot/imported/boss-1.png-0c0c831861455f7ed68359fce877319f.ctex remapped: res://.godot/imported/boss-1.png-0c0c831861455f7ed68359fce877319f.ctex
+Completed load for: 'res://assets/approved/frames/boss-1.png' remapped 'res://assets/approved/frames/boss-1.png' at thread -1
+Loading resource: res://assets/approved/frames/boss-2.png remapped: res://assets/approved/frames/boss-2.png
+Loading resource: res://.godot/imported/boss-2.png-9f2c60522b9b3698ba7cf2323736d5cc.ctex remapped: res://.godot/imported/boss-2.png-9f2c60522b9b3698ba7cf2323736d5cc.ctex
+Completed load for: 'res://assets/approved/frames/boss-2.png' remapped 'res://assets/approved/frames/boss-2.png' at thread -1
+Loading resource: res://assets/approved/frames/boss-3.png remapped: res://assets/approved/frames/boss-3.png
+Loading resource: res://.godot/imported/boss-3.png-5e53cf2433afb65e14a4ed9262ce5641.ctex remapped: res://.godot/imported/boss-3.png-5e53cf2433afb65e14a4ed9262ce5641.ctex
+Completed load for: 'res://assets/approved/frames/boss-3.png' remapped 'res://assets/approved/frames/boss-3.png' at thread -1
+Loading resource: res://scenes/entities/player.tscn remapped: res://scenes/entities/player.tscn
+Loading resource: res://assets/sprites/player.png remapped: res://assets/sprites/player.png
+Loading resource: res://.godot/imported/player.png-e1eaffe0873063c60a0d0b322e4d87d9.ctex remapped: res://.godot/imported/player.png-e1eaffe0873063c60a0d0b322e4d87d9.ctex
+Completed load for: 'res://assets/sprites/player.png' remapped 'res://assets/sprites/player.png' at thread -1
+Completed load for: 'res://scenes/entities/player.tscn' remapped 'res://scenes/entities/player.tscn' at thread -1
+Loading resource: res://scenes/main.tscn remapped: res://scenes/main.tscn
+Loading resource: res://scripts/main.gd remapped: res://scripts/main.gd
+Loading resource: res://assets/ui/cursor.png remapped: res://assets/ui/cursor.png
+Loading resource: res://.godot/imported/cursor.png-82ad823c135e628aa60880ccb75c079d.ctex remapped: res://.godot/imported/cursor.png-82ad823c135e628aa60880ccb75c079d.ctex
+Completed load for: 'res://assets/ui/cursor.png' remapped 'res://assets/ui/cursor.png' at thread -1
+Completed load for: 'res://scripts/main.gd' remapped 'res://scripts/main.gd' at thread -1
+Loading resource: res://scenes/effects/starfield.tscn remapped: res://scenes/effects/starfield.tscn
+Completed load for: 'res://scenes/effects/starfield.tscn' remapped 'res://scenes/effects/starfield.tscn' at thread -1
+Loading resource: res://scenes/game.tscn remapped: res://scenes/game.tscn
+Loading resource: res://scenes/entities/player.tscn remapped: res://scenes/entities/player.tscn
+Completed load for: 'res://scenes/entities/player.tscn' remapped 'res://scenes/entities/player.tscn' at thread -1
+Completed load for: 'res://scenes/game.tscn' remapped 'res://scenes/game.tscn' at thread -1
+Loading resource: res://scenes/ui/hud.tscn remapped: res://scenes/ui/hud.tscn
+Completed load for: 'res://scenes/ui/hud.tscn' remapped 'res://scenes/ui/hud.tscn' at thread -1
+Loading resource: res://scenes/ui/title_screen.tscn remapped: res://scenes/ui/title_screen.tscn
+Loading resource: res://assets/ui/logo.png remapped: res://assets/ui/logo.png
+Loading resource: res://.godot/imported/logo.png-d34d183e6fc605a54aaa32000f044bbc.ctex remapped: res://.godot/imported/logo.png-d34d183e6fc605a54aaa32000f044bbc.ctex
+Completed load for: 'res://assets/ui/logo.png' remapped 'res://assets/ui/logo.png' at thread -1
+Completed load for: 'res://scenes/ui/title_screen.tscn' remapped 'res://scenes/ui/title_screen.tscn' at thread -1
+Loading resource: res://scenes/ui/pause_menu.tscn remapped: res://scenes/ui/pause_menu.tscn
+Completed load for: 'res://scenes/ui/pause_menu.tscn' remapped 'res://scenes/ui/pause_menu.tscn' at thread -1
+Loading resource: res://scenes/ui/game_over.tscn remapped: res://scenes/ui/game_over.tscn
+Completed load for: 'res://scenes/ui/game_over.tscn' remapped 'res://scenes/ui/game_over.tscn' at thread -1
+Loading resource: res://scenes/ui/high_scores.tscn remapped: res://scenes/ui/high_scores.tscn
+Completed load for: 'res://scenes/ui/high_scores.tscn' remapped 'res://scenes/ui/high_scores.tscn' at thread -1
+Completed load for: 'res://scenes/main.tscn' remapped 'res://scenes/main.tscn' at thread -1
+Loading resource: res://assets/sprites/flag.png remapped: res://assets/sprites/flag.png
+Loading resource: res://.godot/imported/flag.png-b8d0210a4bba4a3dc7cd10170df0a728.ctex remapped: res://.godot/imported/flag.png-b8d0210a4bba4a3dc7cd10170df0a728.ctex
+Completed load for: 'res://assets/sprites/flag.png' remapped 'res://assets/sprites/flag.png' at thread -1
+Loading resource: res://assets/sprites/player_explosion.png remapped: res://assets/sprites/player_explosion.png
+Loading resource: res://.godot/imported/player_explosion.png-592b65283a7431006f5bb1c00ff3a37c.ctex remapped: res://.godot/imported/player_explosion.png-592b65283a7431006f5bb1c00ff3a37c.ctex
+Completed load for: 'res://assets/sprites/player_explosion.png' remapped 'res://assets/sprites/player_explosion.png' at thread -1
+ASSET_INTEGRATION {"checks":118,"failures":[]}

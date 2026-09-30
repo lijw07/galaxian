@@ -1,0 +1,206 @@
+{
+  "approval": "User approved migration in this conversation",
+  "frameSize": 24,
+  "roster": [
+    {
+      "path": "assets/approved/frames/player-ship-1.png",
+      "sha256": "22af09c5a9abea8e45a6857ed5cd939bd9d762cb8633237e86e6711f56417782",
+      "source": "player-ship-1.png"
+    },
+    {
+      "path": "assets/approved/frames/player-ship-2.png",
+      "sha256": "7b6092b7e52963396418eba27a1548cfd1abc29d56a2749b36277f2717f4a6e2",
+      "source": "player-ship-2.png"
+    },
+    {
+      "path": "assets/approved/frames/player-ship-3.png",
+      "sha256": "37510d10bbec217ee9974c87247ab952b38a684c0060de26959e750af719898a",
+      "source": "player-ship-3.png"
+    },
+    {
+      "path": "assets/sprites/player.png",
+      "sha256": "55cd1ba4a59eb63d86fcb1cc413959bcbe546e32e8455513374ca26c4689501c",
+      "source": "Unmodified approved frames, horizontal strip"
+    },
+    {
+      "path": "assets/approved/frames/green-enemy-1.png",
+      "sha256": "15d4c79582cd97899405b2abc9ca6e8d2ed585e93349c82503d84f708e612779",
+      "source": "green-enemy-1.png"
+    },
+    {
+      "path": "assets/approved/frames/green-enemy-2.png",
+      "sha256": "946d3b7288551bb7d105b8bc33bca819586e13101a8de0cdc2bafe1c21ba8aab",
+      "source": "green-enemy-2.png"
+    },
+    {
+      "path": "assets/approved/frames/green-enemy-3.png",
+      "sha256": "d5a0e29ff82bb93dff26d211dfb160ac1af09077c29201b4409836f9bd5f58eb",
+      "source": "green-enemy-3.png"
+    },
+    {
+      "path": "assets/sprites/alien_blue.png",
+      "sha256": "a6700485e8ff6741b5863599913a486048ccf8236409b4e263e9c2080e743629",
+      "source": "Unmodified approved frames, horizontal strip"
+    },
+    {
+      "path": "assets/approved/frames/violet-enemy-1.png",
+      "sha256": "404d549d8fa218a58c648f1715df13c2117f42d0d9921a2323b397cd8a340a53",
+      "source": "violet-enemy-1.png"
+    },
+    {
+      "path": "assets/approved/frames/violet-enemy-2.png",
+      "sha256": "1f02dc7ef47a6425ea150e2e79fb5940950306a37828c66f7c69cadf9d817451",
+      "source": "violet-enemy-2.png"
+    },
+    {
+      "path": "assets/approved/frames/violet-enemy-3.png",
+      "sha256": "2055cdb97f1a02d91259bc9d21f20bdd31aca5a9b9bf23bb1f9df0d49c33dfc3",
+      "source": "violet-enemy-3.png"
+    },
+    {
+      "path": "assets/sprites/alien_purple.png",
+      "sha256": "e05ca30f1be98b47a6951438901dc503c5312d9e81e19a652c36d1c3672ac661",
+      "source": "Unmodified approved frames, horizontal strip"
+    },
+    {
+      "path": "assets/approved/frames/red-enemy-1.png",
+      "sha256": "bd87329a47db4e53327d99692870004f7e49d9a3e2f2e6c7d28e32de5d3fd829",
+      "source": "red-enemy-1.png"
+    },
+    {
+      "path": "assets/approved/frames/red-enemy-2.png",
+      "sha256": "4b4d80d3ec95036fdbd51bdf64002f51487de4f36b9c4cd2f74483916a4db557",
+      "source": "red-enemy-2.png"
+    },
+    {
+      "path": "assets/approved/frames/red-enemy-3.png",
+      "sha256": "64631af148f4c266329f39bede633e67da1a3e5cd0c6b7f4607d04a7e96c48ab",
+      "source": "red-enemy-3.png"
+    },
+    {
+      "path": "assets/sprites/alien_red.png",
+      "sha256": "c484f83a9f07f15f3ed7efeba796752fe49b229ed7b3bfc4a387a313555c076a",
+      "source": "Unmodified approved frames, horizontal strip"
+    },
+    {
+      "path": "assets/approved/frames/boss-1.png",
+      "sha256": "5c35e64834bd15b1cbc6896118831fb9c72dc46c18cf000e1543698f88350928",
+      "source": "boss-1.png"
+    },
+    {
+      "path": "assets/approved/frames/boss-2.png",
+      "sha256": "50f5a1fd3b7efaf6585b1d738ac3be569982d0e24c06bb5b662bfb529891073a",
+      "source": "boss-2.png"
+    },
+    {
+      "path": "assets/approved/frames/boss-3.png",
+      "sha256": "a4d23adb16f27718e29f475a28ffc1597d1dabb56f1374b2335dcae7dad634be",
+      "source": "boss-3.png"
+    },
+    {
+      "path": "assets/sprites/alien_flagship.png",
+      "sha256": "45b22f49f383e0d415d74152534be24afad03e68342dc74d7486c9f17fa05e17",
+      "source": "Unmodified approved frames, horizontal strip"
+    },
+    {
+      "path": "assets/music/dive-attack-gameplay-score.json",
+      "sha256": "9df03ad3e45d6e86aa7a0bedf00c7f0fb9169cc01c59caf98363c8d11b9fc5d0",
+      "source": "Approved original chiptune review"
+    },
+    {
+      "path": "assets/music/dive-attack-gameplay.wav",
+      "sha256": "3708c82f6ef802b98e7a70018edfe9c10ab9fdfbb79253761acbab3c91dc31d1",
+      "source": "Approved original chiptune review"
+    },
+    {
+      "path": "assets/music/last-flight-game-over-score.json",
+      "sha256": "587a96a2d94cda6f2a6762c3551d15c963aac173966a2e18f76fbb925eb510bf",
+      "source": "Approved original chiptune review"
+    },
+    {
+      "path": "assets/music/last-flight-game-over.wav",
+      "sha256": "801c9dae6e22eea1c269429b182eb09149ddd97417463b6fdec8b83c5c2530b8",
+      "source": "Approved original chiptune review"
+    },
+    {
+      "path": "assets/music/music-manifest.json",
+      "sha256": "0b0508d41fa80632beceb451a1da101b3978dc45a2ab56e0ff3005e08dcf7118",
+      "source": "Approved original chiptune review"
+    },
+    {
+      "path": "assets/music/star-formation-title-score.json",
+      "sha256": "4455b707b7ff47e1a4e3a43eb1a7625a017c315ba09b05c985dfa77714b0144e",
+      "source": "Approved original chiptune review"
+    },
+    {
+      "path": "assets/music/star-formation-title.wav",
+      "sha256": "7b541a19bb619fa2a21e6bd300de60903ca82051112942c54cfe5b11210fe30e",
+      "source": "Approved original chiptune review"
+    },
+    {
+      "path": "assets/approved/reference/game-over.webp",
+      "sha256": "a3d67e8e650631e2251a264fff49b29cc84d3868e77d32e7cf8b1dd5ed6c63b5",
+      "source": "Approved UI layout/reference"
+    },
+    {
+      "path": "assets/approved/reference/gameplay-hud.webp",
+      "sha256": "367ddad3f612ab3f519fd0eedd658b41b3ca599a820ce97729a8cc42e8248885",
+      "source": "Approved UI layout/reference"
+    },
+    {
+      "path": "assets/approved/reference/pause-menu.webp",
+      "sha256": "a9236982868cfe7255c4dfe22c74a6a465af9936fce2e94478a9e6ddb27c489f",
+      "source": "Approved UI layout/reference"
+    },
+    {
+      "path": "assets/approved/reference/symmetry-checks.json",
+      "sha256": "0fe5525d4c46240c60753b2e4ba2cb9cdeb270c5070f07f9c0b6eacc58fd8ae7",
+      "source": "Approved UI layout/reference"
+    },
+    {
+      "path": "assets/approved/reference/title-menu.webp",
+      "sha256": "a29b2f574d11dbe282a2c772bc784977cfa6bdeb8decf75b3961535b0f8badf5",
+      "source": "Approved UI layout/reference"
+    },
+    {
+      "path": "assets/ui/glyphs.png",
+      "sha256": "6c5c94bca84eabf1fade72e9df83f778fb3aa76c2fbe4246954a5b9f9e172b8b",
+      "source": "Crisp 5x7 bitmap lettering matching approved UI"
+    },
+    {
+      "path": "assets/ui/logo.png",
+      "sha256": "1fba19c49969135a17b54121d0bf9994c9f6955ef076dabcf8df964b7317d8f0",
+      "source": "Approved yellow title lettering and red pixel shadow"
+    },
+    {
+      "path": "assets/sprites/flag.png",
+      "sha256": "ffa006b94437d5857ad4a4c441169729e94c684bf56ee7cf59253ecbe28a199d",
+      "source": "Approved wave flag"
+    },
+    {
+      "path": "assets/ui/cursor.png",
+      "sha256": "f9df1b8fee6e786b1c9702d07104cd7cb55fa2ad569863f0b6151c335ae23f8e",
+      "source": "Approved red menu cursor"
+    },
+    {
+      "path": "assets/sprites/player_shot.png",
+      "sha256": "c3426ba3841e4dd0d88103baa32d31422e4b5252ad330dba7ce62c7ff03a178c",
+      "source": "Approved projectile"
+    },
+    {
+      "path": "assets/sprites/enemy_shot.png",
+      "sha256": "c95d43ddbf30fb95e67312de6b7b2be4b038624d3d22589bf73a6eb2b2eef426",
+      "source": "Approved projectile"
+    },
+    {
+      "path": "assets/sprites/alien_explosion.png",
+      "sha256": "10da507fdf04621b078144ced4bc599d51d351c049c437cd1d3e1b50828c80a9",
+      "source": "Approved four explosion stages, plus transparent end frame"
+    },
+    {
+      "path": "assets/sprites/player_explosion.png",
+      "sha256": "10da507fdf04621b078144ced4bc599d51d351c049c437cd1d3e1b50828c80a9",
+      "source": "Approved four explosion stages, plus transparent end frame"
+    }
+  ]
+}

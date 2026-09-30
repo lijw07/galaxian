@@ -1,0 +1,17 @@
+[gd_scene load_steps=5 format=3]
+[ext_resource type="Script" path="res://scripts/game.gd" id="1"]
+[ext_resource type="Script" path="res://scripts/entities/formation.gd" id="2"]
+[ext_resource type="Script" path="res://scripts/entities/attack_director.gd" id="3"]
+[ext_resource type="PackedScene" path="res://scenes/entities/player.tscn" id="4"]
+[node name="Game" type="Node2D"]
+process_mode = 1
+script = ExtResource("1")
+[node name="Formation" type="Node" parent="."]
+script = ExtResource("2")
+[node name="AttackDirector" type="Node" parent="."]
+script = ExtResource("3")
+[node name="Aliens" type="Node2D" parent="."]
+[node name="Projectiles" type="Node2D" parent="."]
+[node name="Player" parent="." instance=ExtResource("4")]
+visible = false
+[node name="Effects" type="Node2D" parent="."]

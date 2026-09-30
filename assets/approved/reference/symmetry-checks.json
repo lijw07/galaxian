@@ -1,0 +1,110 @@
+{
+  "source": "/Users/jaili/.codex/generated_images/01a0efce-95b9-7de2-a18c-c2741271cd54/exec-1a0237d3-86c5-4fee-a983-770eb0c1c186.png",
+  "checks": [
+    {
+      "name": "player-ship-1.png",
+      "width": 24,
+      "height": 24,
+      "mirroredPixelMismatches": 0,
+      "visiblePixels": 86
+    },
+    {
+      "name": "player-ship-2.png",
+      "width": 24,
+      "height": 24,
+      "mirroredPixelMismatches": 0,
+      "visiblePixels": 126
+    },
+    {
+      "name": "player-ship-3.png",
+      "width": 24,
+      "height": 24,
+      "mirroredPixelMismatches": 0,
+      "visiblePixels": 142
+    },
+    {
+      "name": "green-enemy-1.png",
+      "width": 24,
+      "height": 24,
+      "mirroredPixelMismatches": 0,
+      "visiblePixels": 76
+    },
+    {
+      "name": "green-enemy-2.png",
+      "width": 24,
+      "height": 24,
+      "mirroredPixelMismatches": 0,
+      "visiblePixels": 88
+    },
+    {
+      "name": "green-enemy-3.png",
+      "width": 24,
+      "height": 24,
+      "mirroredPixelMismatches": 0,
+      "visiblePixels": 120
+    },
+    {
+      "name": "violet-enemy-1.png",
+      "width": 24,
+      "height": 24,
+      "mirroredPixelMismatches": 0,
+      "visiblePixels": 72
+    },
+    {
+      "name": "violet-enemy-2.png",
+      "width": 24,
+      "height": 24,
+      "mirroredPixelMismatches": 0,
+      "visiblePixels": 76
+    },
+    {
+      "name": "violet-enemy-3.png",
+      "width": 24,
+      "height": 24,
+      "mirroredPixelMismatches": 0,
+      "visiblePixels": 100
+    },
+    {
+      "name": "red-enemy-1.png",
+      "width": 24,
+      "height": 24,
+      "mirroredPixelMismatches": 0,
+      "visiblePixels": 78
+    },
+    {
+      "name": "red-enemy-2.png",
+      "width": 24,
+      "height": 24,
+      "mirroredPixelMismatches": 0,
+      "visiblePixels": 90
+    },
+    {
+      "name": "red-enemy-3.png",
+      "width": 24,
+      "height": 24,
+      "mirroredPixelMismatches": 0,
+      "visiblePixels": 114
+    },
+    {
+      "name": "boss-1.png",
+      "width": 24,
+      "height": 24,
+      "mirroredPixelMismatches": 0,
+      "visiblePixels": 84
+    },
+    {
+      "name": "boss-2.png",
+      "width": 24,
+      "height": 24,
+      "mirroredPixelMismatches": 0,
+      "visiblePixels": 70
+    },
+    {
+      "name": "boss-3.png",
+      "width": 24,
+      "height": 24,
+      "mirroredPixelMismatches": 0,
+      "visiblePixels": 90
+    }
+  ]
+}

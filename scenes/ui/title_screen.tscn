@@ -1,0 +1,20 @@
+[gd_scene load_steps=5 format=3]
+[ext_resource type="Script" path="res://scripts/ui/title_screen.gd" id="1"]
+[ext_resource type="Texture2D" path="res://assets/ui/logo.png" id="2"]
+[ext_resource type="Texture2D" path="res://assets/sprites/alien_flagship.png" id="3"]
+[ext_resource type="Script" path="res://scripts/entities/arcade_sprite.gd" id="4"]
+[node name="TitleScreen" type="Node2D"]
+process_mode = 3
+script = ExtResource("1")
+options = PackedStringArray("START GAME", "HIGH SCORES", "QUIT")
+actions = PackedStringArray("start", "scores", "quit")
+first_baseline = 154.0
+[node name="Logo" type="Sprite2D" parent="."]
+position = Vector2(112, 62)
+texture = ExtResource("2")
+[node name="BossIcon" type="Sprite2D" parent="."]
+position = Vector2(112, 108)
+scale = Vector2(2, 2)
+texture = ExtResource("3")
+hframes = 3
+script = ExtResource("4")

@@ -1,0 +1,26 @@
+[gd_scene load_steps=5 format=3]
+
+[ext_resource type="Script" path="res://scripts/entities/projectile.gd" id="1"]
+[ext_resource type="Script" path="res://scripts/entities/arcade_sprite.gd" id="2"]
+[ext_resource type="Texture2D" path="res://assets/sprites/enemy_shot.png" id="3"]
+
+[sub_resource type="RectangleShape2D" id="Hitbox"]
+resource_local_to_scene = true
+size = Vector2(1, 3)
+
+[node name="EnemyShot" type="Area2D"]
+texture_filter = 1
+collision_layer = 8
+collision_mask = 1
+script = ExtResource("1")
+velocity = Vector2(0, 110)
+
+[node name="Visual" type="Sprite2D" parent="."]
+texture = ExtResource("3")
+hframes = 1
+script = ExtResource("2")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(-0.5, -0.5)
+shape = SubResource("Hitbox")
+disabled = false

@@ -1,5 +1,7 @@
 extends Node2D
 
+const WEB_EXIT_SCRIPT := "window.parent !== window ? window.parent.postMessage('game-quit', '*') : history.length > 1 ? history.back() : window.close()"
+
 @onready var _title: TitleScreen = $TitleScreen
 @onready var _game: Game = $Game
 @onready var _hud: Hud = $Hud
@@ -67,7 +69,7 @@ func _on_menu_action(action: String) -> void:
 			_high_scores.score = _hud.high_score
 			_high_scores.open()
 		"quit":
-			get_tree().quit()
+			_quit()
 
 
 func _unhandled_input(event: InputEvent) -> void:
@@ -90,3 +92,10 @@ func _exit_tree() -> void:
 	var effects := get_node_or_null("/root/Sfx")
 	if effects != null:
 		effects.stop_all()
+
+
+func _quit() -> void:
+	if OS.has_feature("web"):
+		JavaScriptBridge.eval(WEB_EXIT_SCRIPT)
+		return
+	get_tree().quit()

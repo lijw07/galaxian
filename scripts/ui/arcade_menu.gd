@@ -12,10 +12,16 @@ signal selected(action: String)
 @export var dim_background := false
 @export var show_score := false
 
+const CURSOR = preload("res://assets/ui/cursor.png")
+const INPUT_DELAY := 0.2
+const OPTION_SPACING := 22.0
+const OPTION_HIT_LEFT := 24.0
+const OPTION_HIT_WIDTH := 176.0
+const OPTION_HIT_ABOVE_BASELINE := 16.0
+
 var score := 0
 var selected_index := 0
 var _input_time := 0.0
-const CURSOR = preload("res://assets/ui/cursor.png")
 
 
 func _ready() -> void:
@@ -43,25 +49,62 @@ func _process(delta: float) -> void:
 
 
 func _unhandled_input(event: InputEvent) -> void:
-	if _input_time < 0.2:
+	var motion := event as InputEventMouseMotion
+	if motion != null:
+		_hover(motion.position)
 		return
-	if event.is_action_pressed("ui_up") or event.is_action_pressed("ui_down"):
-		selected_index = posmod(selected_index + (-1 if event.is_action_pressed("ui_up") else 1), options.size())
-		get_viewport().set_input_as_handled()
-		queue_redraw()
+	if _input_time < INPUT_DELAY:
+		return
+	if event.is_action_pressed("menu_up"):
+		_move_selection(-1)
+	elif event.is_action_pressed("menu_down"):
+		_move_selection(1)
 	elif event.is_action_pressed("ui_accept") or event.is_action_pressed("fire"):
 		_choose(selected_index)
-	elif event is InputEventScreenTouch and event.pressed:
-		_pick_at(event.position)
-	elif event is InputEventMouseButton and event.pressed and event.button_index == MOUSE_BUTTON_LEFT:
-		_pick_at(event.position)
+	else:
+		_handle_pointer_press(event)
 
 
-func _pick_at(at: Vector2) -> void:
+func _move_selection(step: int) -> void:
+	selected_index = posmod(selected_index + step, options.size())
+	get_viewport().set_input_as_handled()
+	queue_redraw()
+
+
+func _hover(at: Vector2) -> void:
+	var index := _option_at(at)
+	if index < 0 or index == selected_index:
+		return
+	selected_index = index
+	queue_redraw()
+
+
+func _handle_pointer_press(event: InputEvent) -> void:
+	var click := event as InputEventMouseButton
+	if click != null and click.pressed and click.button_index == MOUSE_BUTTON_LEFT:
+		_choose_at(click.position)
+		return
+	var touch := event as InputEventScreenTouch
+	if touch != null and touch.pressed and touch.device != InputEvent.DEVICE_ID_EMULATION:
+		_choose_at(touch.position)
+
+
+func _choose_at(at: Vector2) -> void:
+	var index := _option_at(at)
+	if index >= 0:
+		_choose(index)
+
+
+func _option_at(at: Vector2) -> int:
 	for index in options.size():
-		if Rect2(24, first_baseline + index * 22 - 16, 176, 22).has_point(at):
-			_choose(index)
-			return
+		var top := _option_baseline(index) - OPTION_HIT_ABOVE_BASELINE
+		if Rect2(OPTION_HIT_LEFT, top, OPTION_HIT_WIDTH, OPTION_SPACING).has_point(at):
+			return index
+	return -1
+
+
+func _option_baseline(index: int) -> float:
+	return first_baseline + index * OPTION_SPACING
 
 
 func _choose(index: int) -> void:
@@ -81,7 +124,7 @@ func _draw() -> void:
 		ArcadeText.draw_centered(self, "SCORE", 112, 114, Color.WHITE)
 		ArcadeText.draw_centered(self, "%06d" % score, 112, 130, Color.YELLOW)
 	for index in options.size():
-		var baseline := first_baseline + index * 22
+		var baseline := _option_baseline(index)
 		ArcadeText.draw_centered(self, options[index], 112, baseline, Color.WHITE)
 		if index == selected_index:
 			draw_texture(CURSOR, Vector2(roundf(112 - ArcadeText.width(options[index]) / 2) - 15, baseline - 8))

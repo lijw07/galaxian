@@ -10,6 +10,7 @@ extends Node2D
 
 
 func _ready() -> void:
+	WindowFitter.fit_to_screen(get_window())
 	_hud.high_score = HighScoreStore.load_high_score()
 	_title.start_requested.connect(_on_start_requested)
 	_title.selected.connect(_on_menu_action)

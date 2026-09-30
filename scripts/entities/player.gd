@@ -19,6 +19,8 @@ var missile_loaded := true:
 
 var _touch_index := -1
 var _touch_x := 0.0
+var _mouse_steering := false
+var _mouse_x := 0.0
 
 
 func _ready() -> void:
@@ -31,6 +33,7 @@ func reset_to_start() -> void:
 	controllable = false
 	visible = true
 	_touch_index = -1
+	_mouse_steering = false
 
 
 func missile_spawn_point() -> Vector2:
@@ -54,13 +57,26 @@ func _process(delta: float) -> void:
 
 
 func _move_direction() -> float:
-	if _touch_index < 0:
-		return Input.get_axis("move_left", "move_right")
-	var offset := _touch_x - position.x
+	if _touch_index >= 0:
+		return _direction_toward(_touch_x)
+	var keyboard := Input.get_axis("move_left", "move_right")
+	if keyboard != 0.0:
+		_mouse_steering = false
+		return keyboard
+	return _direction_toward(_mouse_x) if _mouse_steering else 0.0
+
+
+func _direction_toward(target_x: float) -> float:
+	var offset := target_x - position.x
 	return 0.0 if absf(offset) < TOUCH_DEADZONE else signf(offset)
 
 
 func _unhandled_input(event: InputEvent) -> void:
+	var motion := event as InputEventMouseMotion
+	if motion != null:
+		_mouse_steering = true
+		_mouse_x = motion.position.x
+		return
 	var touch := event as InputEventScreenTouch
 	if touch != null:
 		_on_touch(touch)
